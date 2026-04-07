@@ -1,0 +1,44 @@
+/**
+ * Global styles for ShopGraph AI with Tailwind CSS
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0;
+  }
+
+  body {
+    @apply font-sans antialiased text-gray-900 bg-white;
+  }
+
+  code {
+    @apply font-mono;
+  }
+
+  button {
+    @apply font-sans;
+  }
+}
+
+/* Custom scrollbar styles */
+@layer utilities {
+  .scrollbar-custom::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+  }
+}

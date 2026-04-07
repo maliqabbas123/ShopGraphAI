@@ -1,0 +1,386 @@
+[
+  {
+    "_id": "prod_001",
+    "title": "Gaming Laptop Pro X17",
+    "brand": "TechMaster",
+    "category": "laptop",
+    "description": "High-performance gaming laptop with RTX 4070 GPU, perfect for AAA gaming and content creation",
+    "price": 1299.99,
+    "currency": "USD",
+    "rating": 4.5,
+    "stock": 15,
+    "attributes": {
+      "ram": "16GB DDR5",
+      "storage": "512GB NVMe SSD",
+      "processor": "Intel Core i7-13700H",
+      "gpu": "NVIDIA RTX 4070",
+      "display": "15.6\" FHD 144Hz",
+      "weight": "2.3kg"
+    },
+    "tags": ["gaming", "laptop", "high-performance", "nvidia"]
+  },
+  {
+    "_id": "prod_002",
+    "title": "UltraBook Air 14",
+    "brand": "TechMaster",
+    "category": "laptop",
+    "description": "Lightweight professional laptop with all-day battery life, ideal for business and productivity",
+    "price": 899.99,
+    "currency": "USD",
+    "rating": 4.7,
+    "stock": 22,
+    "attributes": {
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "processor": "Intel Core i5-1235U",
+      "display": "14\" FHD",
+      "battery": "12 hours",
+      "weight": "1.2kg"
+    },
+    "tags": ["laptop", "professional", "lightweight", "business"]
+  },
+  {
+    "_id": "prod_003",
+    "title": "MacBook Pro 14\"",
+    "brand": "Apple",
+    "category": "laptop",
+    "description": "Powerful MacBook Pro with M3 Pro chip, perfect for developers and creative professionals",
+    "price": 1999.99,
+    "currency": "USD",
+    "rating": 4.9,
+    "stock": 8,
+    "attributes": {
+      "ram": "18GB Unified Memory",
+      "storage": "512GB SSD",
+      "processor": "Apple M3 Pro",
+      "display": "14.2\" Liquid Retina XDR",
+      "battery": "17 hours",
+      "weight": "1.6kg"
+    },
+    "tags": ["laptop", "apple", "professional", "premium", "macbook"]
+  },
+  {
+    "_id": "prod_004",
+    "title": "Budget Laptop 15",
+    "brand": "ValueTech",
+    "category": "laptop",
+    "description": "Affordable laptop for everyday computing, great for students and basic tasks",
+    "price": 449.99,
+    "currency": "USD",
+    "rating": 4.0,
+    "stock": 35,
+    "attributes": {
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "processor": "AMD Ryzen 5",
+      "display": "15.6\" HD",
+      "weight": "1.8kg"
+    },
+    "tags": ["laptop", "budget", "student", "affordable"]
+  },
+  {
+    "_id": "prod_005",
+    "title": "iPhone 15 Pro",
+    "brand": "Apple",
+    "category": "phone",
+    "description": "Latest iPhone with A17 Pro chip, titanium design, and advanced camera system",
+    "price": 999.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "stock": 42,
+    "attributes": {
+      "storage": "256GB",
+      "display": "6.1\" Super Retina XDR",
+      "camera": "48MP main camera",
+      "processor": "A17 Pro",
+      "battery": "All-day battery",
+      "5g": "yes"
+    },
+    "tags": ["phone", "apple", "premium", "5g", "iphone"]
+  },
+  {
+    "_id": "prod_006",
+    "title": "Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "phone",
+    "description": "Flagship Samsung phone with S Pen, 200MP camera, and stunning AMOLED display",
+    "price": 1199.99,
+    "currency": "USD",
+    "rating": 4.7,
+    "stock": 28,
+    "attributes": {
+      "storage": "256GB",
+      "display": "6.8\" Dynamic AMOLED",
+      "camera": "200MP main camera",
+      "processor": "Snapdragon 8 Gen 3",
+      "battery": "5000mAh",
+      "5g": "yes"
+    },
+    "tags": ["phone", "samsung", "premium", "5g", "android"]
+  },
+  {
+    "_id": "prod_007",
+    "title": "Pixel 8 Pro",
+    "brand": "Google",
+    "category": "phone",
+    "description": "Google's flagship phone with advanced AI features and exceptional camera quality",
+    "price": 899.99,
+    "currency": "USD",
+    "rating": 4.6,
+    "stock": 31,
+    "attributes": {
+      "storage": "128GB",
+      "display": "6.7\" LTPO OLED",
+      "camera": "50MP with AI enhancement",
+      "processor": "Google Tensor G3",
+      "battery": "5050mAh",
+      "5g": "yes"
+    },
+    "tags": ["phone", "google", "android", "5g", "ai"]
+  },
+  {
+    "_id": "prod_008",
+    "title": "Budget Phone X5",
+    "brand": "ValueTech",
+    "category": "phone",
+    "description": "Affordable smartphone with decent specs for everyday use",
+    "price": 249.99,
+    "currency": "USD",
+    "rating": 3.9,
+    "stock": 67,
+    "attributes": {
+      "storage": "64GB",
+      "display": "6.5\" LCD",
+      "camera": "48MP main camera",
+      "processor": "MediaTek Dimensity 700",
+      "battery": "5000mAh",
+      "5g": "yes"
+    },
+    "tags": ["phone", "budget", "affordable", "5g"]
+  },
+  {
+    "_id": "prod_009",
+    "title": "AirPods Pro (2nd Gen)",
+    "brand": "Apple",
+    "category": "headphones",
+    "description": "Premium noise-canceling earbuds with spatial audio and adaptive transparency",
+    "price": 249.99,
+    "currency": "USD",
+    "rating": 4.7,
+    "stock": 55,
+    "attributes": {
+      "type": "In-ear",
+      "noise_cancellation": "Active",
+      "battery": "6 hours (30 with case)",
+      "connectivity": "Bluetooth 5.3",
+      "water_resistance": "IPX4"
+    },
+    "tags": ["headphones", "apple", "wireless", "noise-canceling", "premium"]
+  },
+  {
+    "_id": "prod_010",
+    "title": "WH-1000XM5",
+    "brand": "Sony",
+    "category": "headphones",
+    "description": "Industry-leading noise canceling headphones with exceptional sound quality",
+    "price": 399.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "stock": 18,
+    "attributes": {
+      "type": "Over-ear",
+      "noise_cancellation": "Active",
+      "battery": "30 hours",
+      "connectivity": "Bluetooth 5.2",
+      "driver_size": "30mm"
+    },
+    "tags": ["headphones", "sony", "wireless", "noise-canceling", "premium"]
+  },
+  {
+    "_id": "prod_011",
+    "title": "QuietComfort 45",
+    "brand": "Bose",
+    "category": "headphones",
+    "description": "Comfortable noise-canceling headphones with balanced audio performance",
+    "price": 329.99,
+    "currency": "USD",
+    "rating": 4.6,
+    "stock": 24,
+    "attributes": {
+      "type": "Over-ear",
+      "noise_cancellation": "Active",
+      "battery": "24 hours",
+      "connectivity": "Bluetooth 5.1",
+      "weight": "240g"
+    },
+    "tags": ["headphones", "bose", "wireless", "noise-canceling", "comfortable"]
+  },
+  {
+    "_id": "prod_012",
+    "title": "Budget Wireless Buds",
+    "brand": "ValueTech",
+    "category": "headphones",
+    "description": "Affordable wireless earbuds with decent sound quality for everyday use",
+    "price": 49.99,
+    "currency": "USD",
+    "rating": 4.1,
+    "stock": 89,
+    "attributes": {
+      "type": "In-ear",
+      "noise_cancellation": "None",
+      "battery": "5 hours (20 with case)",
+      "connectivity": "Bluetooth 5.0",
+      "water_resistance": "IPX4"
+    },
+    "tags": ["headphones", "wireless", "budget", "affordable"]
+  },
+  {
+    "_id": "prod_013",
+    "title": "iPad Pro 12.9\"",
+    "brand": "Apple",
+    "category": "tablet",
+    "description": "Powerful tablet with M2 chip and stunning Liquid Retina XDR display",
+    "price": 1099.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "stock": 14,
+    "attributes": {
+      "storage": "256GB",
+      "display": "12.9\" Liquid Retina XDR",
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "camera": "12MP Wide, 10MP Ultra Wide"
+    },
+    "tags": ["tablet", "apple", "premium", "professional", "ipad"]
+  },
+  {
+    "_id": "prod_014",
+    "title": "Galaxy Tab S9",
+    "brand": "Samsung",
+    "category": "tablet",
+    "description": "Premium Android tablet with S Pen and AMOLED display",
+    "price": 799.99,
+    "currency": "USD",
+    "rating": 4.6,
+    "stock": 19,
+    "attributes": {
+      "storage": "128GB",
+      "display": "11\" Dynamic AMOLED 2X",
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "8GB",
+      "battery": "8000mAh"
+    },
+    "tags": ["tablet", "samsung", "android", "premium", "s-pen"]
+  },
+  {
+    "_id": "prod_015",
+    "title": "Budget Tablet 10",
+    "brand": "ValueTech",
+    "category": "tablet",
+    "description": "Affordable tablet for media consumption and light productivity",
+    "price": 199.99,
+    "currency": "USD",
+    "rating": 4.0,
+    "stock": 41,
+    "attributes": {
+      "storage": "64GB",
+      "display": "10.1\" LCD",
+      "processor": "MediaTek Helio G80",
+      "ram": "4GB",
+      "battery": "6000mAh"
+    },
+    "tags": ["tablet", "budget", "affordable", "android"]
+  },
+  {
+    "_id": "prod_016",
+    "title": "Apple Watch Series 9",
+    "brand": "Apple",
+    "category": "smartwatch",
+    "description": "Advanced smartwatch with health tracking and always-on display",
+    "price": 399.99,
+    "currency": "USD",
+    "rating": 4.7,
+    "stock": 33,
+    "attributes": {
+      "display": "1.9\" Always-On Retina",
+      "processor": "S9 SiP",
+      "battery": "18 hours",
+      "water_resistance": "50m",
+      "sensors": "Heart rate, Blood oxygen, ECG"
+    },
+    "tags": ["smartwatch", "apple", "fitness", "health", "premium"]
+  },
+  {
+    "_id": "prod_017",
+    "title": "Galaxy Watch 6",
+    "brand": "Samsung",
+    "category": "smartwatch",
+    "description": "Feature-rich smartwatch with comprehensive health tracking",
+    "price": 299.99,
+    "currency": "USD",
+    "rating": 4.5,
+    "stock": 27,
+    "attributes": {
+      "display": "1.5\" AMOLED",
+      "processor": "Exynos W930",
+      "battery": "40 hours",
+      "water_resistance": "5ATM",
+      "sensors": "Heart rate, Blood pressure, ECG"
+    },
+    "tags": ["smartwatch", "samsung", "fitness", "health", "android"]
+  },
+  {
+    "_id": "prod_018",
+    "title": "Fitness Tracker Pro",
+    "brand": "FitTech",
+    "category": "smartwatch",
+    "description": "Affordable fitness tracker with essential health monitoring features",
+    "price": 79.99,
+    "currency": "USD",
+    "rating": 4.2,
+    "stock": 61,
+    "attributes": {
+      "display": "1.1\" AMOLED",
+      "battery": "7 days",
+      "water_resistance": "5ATM",
+      "sensors": "Heart rate, Steps, Sleep tracking"
+    },
+    "tags": ["smartwatch", "fitness", "budget", "tracker", "affordable"]
+  },
+  {
+    "_id": "prod_019",
+    "title": "Gaming Mouse RGB Pro",
+    "brand": "GameGear",
+    "category": "accessories",
+    "description": "High-precision gaming mouse with customizable RGB lighting",
+    "price": 69.99,
+    "currency": "USD",
+    "rating": 4.5,
+    "stock": 78,
+    "attributes": {
+      "dpi": "25600",
+      "buttons": "8 programmable",
+      "connectivity": "Wired/Wireless",
+      "battery": "70 hours"
+    },
+    "tags": ["gaming", "mouse", "rgb", "accessories", "wireless"]
+  },
+  {
+    "_id": "prod_020",
+    "title": "Mechanical Keyboard Pro",
+    "brand": "GameGear",
+    "category": "accessories",
+    "description": "Premium mechanical keyboard with RGB backlighting and hot-swappable switches",
+    "price": 149.99,
+    "currency": "USD",
+    "rating": 4.6,
+    "stock": 44,
+    "attributes": {
+      "switch_type": "Cherry MX Brown",
+      "layout": "Full-size (104 keys)",
+      "connectivity": "Wired/Wireless",
+      "backlighting": "RGB per-key"
+    },
+    "tags": ["gaming", "keyboard", "mechanical", "rgb", "accessories"]
+  }
+]
